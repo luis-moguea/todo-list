@@ -33,5 +33,5 @@ const swaggerDocs = (app, port) => {
     console.log(`Version 1 docs are available at https://express-todo-list-e9ic.onrender.com/api/docs`)
 }
 
-module.exports = {swaggerDocs}
+module.exports = swaggerDocs
 
