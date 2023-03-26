@@ -1,5 +1,4 @@
 const mongoose = require("mongoose")
-const { find } = require("../models/mongodb")
 
 const Note = require("../models/mongodb")
 Note()
@@ -37,5 +36,7 @@ module.exports = {
         }).then(deletedNote => {
             res.send(deletedNote)
         })
+
+        mongoose.connection.close
     }
 }
