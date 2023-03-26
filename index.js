@@ -1,7 +1,7 @@
 const express = require("express")
 const dotenv = require("dotenv").config()
 const router = require("./routes/appRouter")
-const swaggerDocs = require("./utils/swagger")
+const {swaggerDocs} = require("./utils/swagger")
 
 
 const app = express()
