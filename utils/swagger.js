@@ -25,11 +25,6 @@ const swaggerSpec = swaggerJsDoc(options)
 const swaggerDocs = (app, port) => {
     app.use("/api/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
-    app.get("/api/docs.json", (req, res)=> {
-        res.setHeader("Content-Type", "application/json")
-        res.send(swaggerSpec)
-    })
-
     console.log(`Version 1 docs are available at https://express-todo-list-e9ic.onrender.com/api/docs`)
 }
 

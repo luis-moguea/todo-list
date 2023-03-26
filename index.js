@@ -7,7 +7,7 @@ const swaggerDocs = require("./utils/swagger")
 const app = express()
 
 app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
+//app.use(express.urlencoded({ extended: false }))
 app.use("/", router)
 
 const port = process.env.PORT
@@ -16,4 +16,4 @@ app.listen(port, () =>{
     console.log(`Listening on port ${port}`)
 })
 
-app.listen(swaggerDocs(app, port))
+//app.listen(swaggerDocs(app, port))
