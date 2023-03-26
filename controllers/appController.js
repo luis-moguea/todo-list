@@ -17,6 +17,7 @@ module.exports = {
         if(!note.note){
             res.status(400).send("Note empty, please type something")
         }
+        
         const newNote = new Note ({
             note: req.body.note,
             done: req.body.done
