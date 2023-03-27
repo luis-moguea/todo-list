@@ -1,5 +1,7 @@
 const swaggerJsDoc = require("swagger-jsdoc")
 const swaggerUi = require("swagger-ui-express")
+const path = require("path")
+const { join } = require("path")
 
 
 //Metadata info about the api
@@ -13,7 +15,7 @@ const options = {
         }
     },
 
-    apis: ["../routes/appRouter.js"]
+    apis: [`${path.join(__dirname, "../routes/appRouter.js")}`]
 }
 
 // transform DATA into JSON
