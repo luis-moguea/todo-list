@@ -3,7 +3,7 @@ const path = require("path")
 const dotenv = require("dotenv").config({path: path.resolve(__dirname, "../.env")})
 const mongooseHidden = require("mongoose-hidden")()
 
-const mongoUri = `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@cluster0.n9lxkrd.mongodb.net/todo-list?retryWrites=true&w=majority`
+const mongoUri = `mongodb+srv://luismogueadp:Lm.24277690@cluster0.n9lxkrd.mongodb.net/todo-list?retryWrites=true&w=majority`
 
 mongoose.connect(mongoUri).then(()=>{
     console.log("Database connected")
