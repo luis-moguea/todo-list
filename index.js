@@ -1,7 +1,7 @@
 const express = require("express")
 const dotenv = require("dotenv").config()
 const router = require("./routes/appRouter")
-const swaggerDocs = require("./utils/swagger")
+const { swaggerDocs: V1SwaggerDocs } = require("./utils/swagger")
 
 
 const app = express()
@@ -14,5 +14,5 @@ const port = process.env.PORT
 
 app.listen(port, () =>{
     console.log(`Listening on port ${port}`)
-    swaggerDocs(app, port)
+    V1SwaggerDocs(app, port)
 })
