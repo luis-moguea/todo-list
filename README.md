@@ -22,7 +22,22 @@ This project was created using:
 
 To run this project, just clone this repository from Github and run it locally using the command node index.js.
 
+
+### Clone the repository
 ```
    git clone git@github.com:luis-moguea/todo-list.git
+```
+
+### Install dependencies
+```
+   npm install
+```
+
+### Run the app
+```
    node index.js
 ```
+
+## API Docs
+
+https://express-todo-list-noe9.onrender.com/api-docs/
