@@ -1,15 +1,14 @@
-# Table of content
+# Todo List - REST API
 
-- General info
-- Technologies
-- Setup
+## Description
+This is a REST API that allows users to create notes of things they need to do, and also see all the notes when they need them.
 
-## General info
-
-This project will allow users to create notes of things they need to do, and also see all the notes when they need them.
+## Features
+* Create a new note
+* Get all notes
+* Delete notes
 
 ## Technologies
-
 This project was created using:
 
 * JavaScript (ES6)
@@ -19,22 +18,20 @@ This project was created using:
 * Swagger-ui-express: 4.6.2
 
 ## Setup
-
 To run this project, just clone this repository from Github and run it locally using the command node index.js.
 
-
 ### Clone the repository
-```
+```bash
    git clone git@github.com:luis-moguea/todo-list.git
 ```
 
 ### Install dependencies
-```
+```bash
    npm install
 ```
 
 ### Run the app
-```
+```bash
    node index.js
 ```
 
