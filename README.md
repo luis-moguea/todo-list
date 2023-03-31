@@ -1,8 +1,8 @@
+
+
 # Table of content
 
-- General info
-- Technologies
-- Setup
+[[toc]]
 
 ## General info
 
