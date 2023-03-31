@@ -32,7 +32,7 @@ To run this project, just clone this repository from Github and run it locally u
 
 ### Run the app
 ```bash
-   node index.js
+   npm run start
 ```
 
 ## API Docs
