@@ -2,7 +2,7 @@
 
 # Table of content
 
-[[toc]]
+[TOC]
 
 ## General info
 
