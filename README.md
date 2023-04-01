@@ -37,4 +37,4 @@ To run this project, just clone this repository from Github and run it locally u
 
 ## API Docs
 
-https://express-todo-list-noe9.onrender.com/api-docs/
+https://express-todo-list-noe9.onrender.com/api-docs
